@@ -80,7 +80,7 @@ body {
     width: 400px;
     height: 250px;
     position: relative;
-    right: 175px;
+    left: -174px;
 }
 /* Footer Attributes */
 #p04 {
@@ -92,8 +92,8 @@ body {
     font-size: 35px;
     margin: 10px;
     width: 900px;
-    position: relative;
-    left: 10px;
+    position: absolute;
+    left: 514px;
     float: both;
     clear: both;
 }
