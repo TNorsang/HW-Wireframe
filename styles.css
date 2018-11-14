@@ -1,6 +1,7 @@
-div.relative {
-    position: relative;
+div.absolute {
+    position: absolute;
     left: 100px; 
+    right: 200px;
 }
 
 /* Header Attributes */
@@ -51,20 +52,6 @@ body {
     left: 15px;
 }
 
-/* Article Attributes */
-#d01 {
-    text-align: center;
-    background-color: gray;
-    padding: 40px;
-    margin: 5px;
-    width: 200px;
-    padding: 94px;
-    margin: 1px;
-    position: absolute;
-    top: 389px;
-    left: 63px;
-    z-index: 1;
-}
 
 
 /* Aside Attributes */
@@ -72,28 +59,77 @@ body {
     background-color: #ebebeb;
     color: gray;
     text-align: center;
-    padding: 40px;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    margin: 5px;
     font-size: 35px;
-    float: right;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 40px;
+    margin: 5px;
     width: 400px;
     height: 250px;
-    position: relative;
-    left: -174px;
+    float: right;
+    position: absolute;
+    left: 523px;
 }
 /* Footer Attributes */
 #p04 {
     background-color: #ebebeb;
     color: gray;
     text-align: center;
-    padding: 40px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 35px;
-    margin: 10px;
-    width: 900px;
-    position: absolute;
-    left: 514px;
-    float: both;
+    line-height: 100px;
+    padding: 31px;
+    margin: 20px;
+    width: 925px;
+    height: 100px;
     clear: both;
+}
+
+/* Article Attributes */
+#d01 {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    width: 270px;
+    height: 46px;
+    padding: 89px;
+    margin: 8px;
+    position: absolute;
+    top: 408px;
+    left: 28px;
+    z-index: 1;
+}
+
+#p05 {
+    position: absolute;
+    top: -18px;
+    left: 171px;  
+}
+
+#h1 {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: center;
+    line-height: 35px;
+    background-color: white;
+    color: gray;
+    width: 350px;
+    height: 40px;
+    position: absolute;
+    top: 491px;
+    left: 86px;
+    z-index: 1;
+}
+
+#p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: center;
+    line-height: 34px;
+    background-color: white;
+    color: gray;
+    width: 350px;
+    height: 40px;
+    position: absolute;
+    top: 552px;
+    left: 86px;
+    z-index: 1;
 }
